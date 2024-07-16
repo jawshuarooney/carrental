@@ -112,7 +112,7 @@ function Booknow() {
               <option key={car.id} value={car.name} />
             ))}
           </datalist>
-        </div>
+        </div >
         {selectedCar && (
           <div className="selected-car">
             <img src={selectedCar.image} alt={selectedCar.name} className="car-image1" />
