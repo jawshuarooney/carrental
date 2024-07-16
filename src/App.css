@@ -1,0 +1,271 @@
+body{
+    background-color: #151924 !important;
+}
+
+/* Navbar */
+.nav {
+    background-color: #151924 !important;
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 1000 !important; /* Ensure the navbar appears above other content */
+    border-bottom: #501f00 solid 1px !important;
+}
+  
+.nav-link {
+    color: white !important;
+}
+  
+#logo {
+    color: black !important;
+}
+  
+.logo-image{
+    height: auto;
+    width: 250px;
+}
+.navbtn{
+    color: rgb(200, 200, 255) !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.navbtn:hover{
+    color: rgb(238, 242, 255) !important;
+    font-weight: bold !important;
+}
+#bookbtn{
+    color: #ff6300 !important;
+    font-weight: bold !important;
+}
+#bookbtn:hover{
+    color: darkorange !important;
+    font-weight: bold !important;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #da4f18;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer p {
+    margin-bottom: 0;
+  }
+  
+
+/* Home */
+
+.carousel-image {
+    margin-top: 80px;
+    height: 1200px;
+    object-fit: cover; 
+  }
+
+.home-content{
+    color: white;
+}
+
+#homebook{
+    background-color: #ff6300;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+}
+#homebook:hover{
+    background-color: darkorange;
+    color: black;
+}
+
+/* Our Cars */
+
+.our-cars-container {
+    padding: 20px;
+    background-color: #ff6300;
+  }
+  
+  .car-box {
+    background-color: #ff6300;
+    border: 1px solid darkblue;
+    ;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .car-box:hover {
+    border-color: #000000;
+    transform: scale(1.02);
+    transition-duration: 0.8s;
+  }
+  
+  .car-image {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 10px;
+  }
+  
+  .modal-car-image {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  /* Book now */
+
+  .logo-image2{
+    margin-top: 70px;
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .booking-container h2{
+    background-color: #f77e47;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+  }
+
+  .form-control{
+    margin-top: 90px;
+  }
+  .booking-container {
+    padding: 20px;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  .car-image1 {
+    border-radius: 40px;
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+.selected-car{
+    background-color: rgb(233, 228, 226);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  .duration-selector {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .duration-selector label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+/* About us */
+
+.about-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  
+  .about-content {
+    text-align: center;
+    flex: 1;
+    max-width: 80%;
+    height: 1000px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    background-image: url('https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D');
+    border-radius: 10px;
+    font-size: 21px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-shadow: #1800526c 5px 5px 3px;
+    color: white;
+  }
+  
+  .banner-left,
+  .banner-right {
+    width: 500px;
+    height: 900px;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  
+  .banner-left {
+    margin-right: 20px;
+    background-image: url('https://w0.peakpx.com/wallpaper/551/687/HD-wallpaper-cars-vertical.jpg');
+    background-position: center;
+  }
+  
+  .banner-right {
+    margin-left: 20px;
+    background-image: url('https://i.pinimg.com/564x/c6/b2/ef/c6b2efe0529897b89799cfc667764ded.jpg');
+    background-position: center;
+  }
+  
+  li{
+    list-style-type: none;
+  }
+
+ #containera section p, #containera section ul li{
+    background-color: rgb(148, 54, 0);
+  }
+  #containera section h2{
+    background-color: rgb(163, 38, 0);
+  }
+  .abot{
+    background-color: #f77e47;
+  }
+
+  /* Contact */
+
+  .contact-container {
+    padding: 50px 20px;
+  }
+  
+  .contact-logo img {
+    max-width: 1500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .contact-form {
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .contact-input {
+    margin: 5px;
+  }
+
+  
+  .contact-info {
+    margin-top: 30px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    color: orangered;
+  }
+  
